@@ -27,7 +27,7 @@
 // 	text-align: center;
 // }
 .image {
-    background-image: url('/assets/Images/banner1.png');
+    background-image: url('./assets/Images/banner1.png');
     background-repeat: no-repeat;
     background-size: contain; /* Set the background size to 'contain' */
     background-position: center; /* Center the background image */
@@ -106,7 +106,7 @@
 }
 
 .Input{
-    background-image: url('/assets/Images/background1.svg');
+    background-image: url('./assets/Images/background1.svg');
     // background-image: url('https://i.pinimg.com/564x/8e/ae/e5/8eaee56d1074852d25fa9a46a672cf19.jpg');
     background-repeat: no-repeat;
     background-size: contain;  
