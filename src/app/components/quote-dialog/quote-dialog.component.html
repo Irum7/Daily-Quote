@@ -1,10 +1,9 @@
 <!-- <p>quote-dialog works!</p> -->
 
 <!-- <button mat-button (click)="openDialog()">Launch dialog</button> -->
-<h1 mat-dialog-title>Dialog with elements</h1>
+<h1 mat-dialog-title>{{ data.userName }}'s quote of the day</h1>
 <div mat-dialog-content>
     <div *ngIf="quote">
-        <p>{{ data.userName }}'s quote of the day is:</p>
         <p>{{ quote }}</p>
         <p>{{ author }}</p>
     </div>
