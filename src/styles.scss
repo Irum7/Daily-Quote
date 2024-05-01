@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    background-color: antiquewhite;
+  }
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Charm-Bold';
+  src: url('./assets/fonts/Charm-Bold.ttf');
+}
+@font-face {
+  font-family: 'Charm-Regular';
+  src: url('./assets/fonts/Charm-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url('./assets/fonts/Lobster-Regular.ttf');
+}
+@font-face {
+  font-family: 'PinyonScript-Regular';
+  src: url('./assets/fonts/PinyonScript-Regular.ttf');
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,62 @@
+<!-- <p>home-page works!</p> -->
+
+<div class="image">
+  <p class="header">Daily Quotes</p>
+</div>
+
+<div class="Extra-space">
+  <br>
+</div>
+
+<!-- <input type="text" [(ngModel)]="searchText" (input)="applyFilter()" placeholder="Search"> -->
+<!-- <ul>
+    <li *ngFor="let item of filteredItems">
+        <p>{{ item.quote }}</p>
+        <p>{{ item.author }}</p>
+    </li>
+    </ul> -->
+
+<!-- <div class="enterName">
+  <p class="header2">Enter your name:</p>
+</div> -->
+
+<div class="Input">
+    <!-- <input type="text" class="nameInput" [(ngModel)]="userName" /> -->
+    <div class="input-row">
+      <span class="header2">Enter your name:</span>
+      <br>
+      <span>
+        <input #inputBox autofocus type="text" class="nameInput"  [(ngModel)]="userName" (keyup)="handleKeyUp($event)" />
+      </span>
+      <br>
+    </div>
+  <!-- <button class="quoteButton" (click)="getQuote()">Get Quote</button> -->
+</div>
+
+
+<!-- <ol>
+  <li>
+    <span>
+      <input matInput [(ngModel)]="userName" placeholder="What's your name?">
+    </span>
+  </li>
+  <li>
+    <button mat-raised-button (click)="openDialog()">Pick one</button>
+  </li>
+  <li *ngIf="userName">
+    You chose: <i>{{userName}}</i>
+  </li>
+</ol> -->
+
+<!-- <div mat-dialog-content>
+  <p>What's your favorite animal?</p>
+  <span> 
+    <input matInput [(ngModel)]="userName">
+  </span>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="userName" cdkFocusInitial>Ok</button>
+</div> -->
+
+
