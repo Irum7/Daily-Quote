@@ -1,33 +1,7 @@
-// h1 {
-//     text-align: center;
-//     // color: white;
-//     font-family: 'PinyonScript-Regular';
-//     font-size: 50px;
-//     font-weight: 600;
-//     margin: 0;
-//     padding: 20px;
-//   }
-// .image {
-    
-// 	background-image: url('/assets/Images/banner1.png');
-//     background-repeat: no-repeat;
-//     background-size: contain; /* Set the background size to 'contain' */
-//     background-position: center; /* Center the background image */
-//     background-size: 40% 100%;
-// }
-// .header {
-// 	padding-top: 50px;
-// 	padding-bottom: 50px;
-//     padding-right: 50px;
-// 	padding-left: 50px;
-// 	color: black;
-//     font-family: 'PinyonScript-Regular';
-//     font-size: 50px;
-// 	// font-size: 20px;
-// 	text-align: center;
-// }
+
 .image {
     background-image: url('../../../assets/Images/banner1.png');
+    // background-image: url('../../../assets/Images/banner3.jpg');
     background-repeat: no-repeat;
     background-size: contain; /* Set the background size to 'contain' */
     background-position: center; /* Center the background image */
@@ -39,10 +13,6 @@
 
 }
 
-// LOOK BUMBUM 
-// Below I have made an example on how to have different css properties for different screen sizes. 
-// These only override the specific property (in this case background-color) of the .image css class
-/* Small devices (portrait tablets and large phones, 600px and up) */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -101,7 +71,7 @@
         font-size: 2.2vw;
     }
     .Extra-space{
-        height: 20px;
+        height: 0px;
     }
 }
 
@@ -131,9 +101,9 @@
     font-family: 'PinyonScript-Regular';
     // font-size: 2vw;
     text-align: center;
-    // min-width: 450px;
-    // max-width: 90%; /* Limit the maximum width of the text */
     margin: 0;
+    background-color: antiquewhite;
+    font-weight: bold;
 }
 
 .header2 {
@@ -144,12 +114,7 @@
     font-weight: 700;
 }
 
-// .enterName{
-//     text-align: center;
-//     font-family: 'PinyonScript-Regular';
-//     font-size: 40px;
-//     font-weight: 700;
-// }  
+ 
 .nameInput{
     background-color: antiquewhite;
     // border: antiquewhite;
@@ -158,12 +123,7 @@
     font-size: 20px;
     text-align: center;
 }
-// .quoteButton{
-//     text-align: center;
-//     font-family: 'Charm-Regular';
-//     font-size: 25px;
-//     font-weight: 300;
-// }  
+  
 .Input button {
     display: block;
 }

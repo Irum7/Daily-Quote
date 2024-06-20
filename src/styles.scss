@@ -1,7 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
 html{
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
+    // background-image: url('./assets/Images/aesthetic-background.jpg');
+    background-image: url('./assets/Images/flowers.jpg');
+    background-size: cover; /* Set the background size to 'contain' */
+    background-position: center; /* Center the background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 450px;
+    min-height: 70px;
+    background-repeat: no-repeat;
   }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html{
+    // background-image: url('./assets/Images/mobile-bckgrnd.jpg');
+    background-image: url('./assets/Images/mobile-bckgrnd2.jpg');
+    min-height: 940px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  html{
+    min-width: 600px;
+    min-height: 350px;
+  }
+}
+
+//  Medium devices (landscape tablets, 768px and up) 
+// @media only screen and (min-width: 768px) {
+//   html{
+//     // background-size: cover;
+//     min-width: 768px;
+//     min-height: 350px;
+//   }
+// }
+
+// @media only screen and (min-width: 992px){
+//   html{
+//     // background-image: url('./assets/Images/aesthetic-background-max.jpg');
+//     background-image: url('./assets/Images/flowers.jpg');
+
+
+//     // background-size: cover;
+//     min-width: 992px;
+//     min-height: 350px;
+//   }
+// }
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: 'Charm-Bold';
